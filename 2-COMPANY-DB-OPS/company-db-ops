@@ -98,7 +98,6 @@ INSERT INTO departments(department_id,department_name,location_id) VALUES (10,'F
 INSERT INTO departments(department_id,department_name,location_id) VALUES (11,'Accounting',1700);
 select * from departments;
 
-
 ALTER TABLE employees MODIFY email varchar(50);
 INSERT INTO employees(employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,manager_id,department_id) VALUES (100,'Steven','King','steven.king@sqltutorial.org','515.123.4567','1987-06-17',4,24000.00,NULL,9);
 INSERT INTO employees(employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,manager_id,department_id) VALUES (101,'Neena','Kochhar','neena.kochhar@sqltutorial.org','515.123.4568','1989-09-21',5,17000.00,100,9);
